@@ -1,34 +1,38 @@
 # Construção de Algoritimos
 
 > Tutor(a): Adriana Sicsú;
+
 > Data: 31/03/23;
-> Aula: 02 - Racicínio Lógico;
+
+> Aula: 01 - Racicínio Lógico;
 
 Raciocinio lógico, estruturar a forma de pensar, projetar as ações;
 
-torre de hanoi[USR_LIM=5];
-Regras 
-- (1) Mover apenas um disco por vez;
-- (2) Um disco com diâmetro maior nunca pode ficar sobre um disco com diâmetro menor;
-Jogo do Rio - Jogos 360 ;
-Canibais e Missionários;
+- Torre de Hanoi[USR_LIM=5];
+  - Regras 
+    - (1) Mover apenas um disco por vez;
+    - (2) Um disco com diâmetro maior nunca pode ficar sobre um disco com diâmetro menor;
+- Jogo do Rio - Jogos 360;
+- Canibais e Missionários;
 
 https://rachacuca.com.br/logica/problemas/teste-de-einstein/; // -> 3:59m
+
 https://code.org;
+
 https://www.youtube.com/watch?v=cDA3_5982h8&themeRefresh=1; // Exact Instructions Challenge 
 
 Algoritmo -> interpretação;
 
 Algoritmo:
-    Linguagem Natural;
-    Descrever passo-a-passo o problema;
+  - Linguagem Natural;
+  - Descrever passo-a-passo o problema;
 
 Cenário:
 - sozinho (isolado)
 - ovo na geladeira
 - sem telefone
 
----------------------------------
+```plaintext
 INICIO;
     01. SE NÃO ESTIVER EM REPOUSO, SE LOCOMOVER A COZINHA;
     02. LOCALIZAR A GELADEIRA;
@@ -67,30 +71,32 @@ INICIO;
     35. COLETE UMA COLHER;
     36. COMA SEU OVO;
 FIM;
----------------------------------
+```
 
-Faltou o despejo da casca dos ovos;
+Faltou o despejo das cascas dos ovos;
+
 Faltou tomperro;
+
 Checar a validade do ovo;
 
----------------------------------
+
 Algoritmo:
-    Descrever passo-a-passo como resolver um problema;
+- Descrever passo-a-passo como resolver um problema;
 
 Problema:
-    Faça um algoritmo que entre com o valor de um produto e ao final informar o valor pago com 5% de desconto;
+- Faça um algoritmo que entre com o valor de um produto e ao final informar o valor pago com 5% de desconto;
 
 Livro:
-    Fundamentos da Programação de Computadores: Algoritmos, Pascal, C, C++ e Java;
+- Fundamentos da Programação de Computadores: Algoritmos, Pascal, C, C++ e Java;
 
 Estruturando o pensamento:
-    01. Objetivo: Calcular o valor do produto com 5% de desconto (Interpretar o texto);
-    02. Obter o valor do produto;
-        02.01. Quem fornece este valor? O Usuário;
-        02.02. Como eu consigo esse valor do Usuário? através da entrada de dado;
-        02.03. Guardar numa variável: VALOR;
-    03. Calcular o valor do produto com desconto;
-    04. Informar o valor final;
+- 01\. Objetivo: Calcular o valor do produto com 5% de desconto (Interpretar o texto);
+- 02\. Obter o valor do produto;
+  - 02.01. Quem fornece este valor? O Usuário;
+  - 02.02. Como eu consigo esse valor do Usuário? através da entrada de dado;
+  - 02.03. Guardar numa variável: VALOR;
+- 03\. Calcular o valor do produto com desconto;
+- 04\. Informar o valor final;
 
 ---------------------------------
 
@@ -102,31 +108,31 @@ Conhecimento é informação aplicada (Experiencia + Informação);
 
 Conceitos:
 - Variavel (Alocação de memória)
-    - Atributos:
-        - Nome -> Sistemas de nomeclatura;
-            - Não pode começar com número;
-            - Sem caracteres especiais;
-                - Algumas linguagens não aceitam o undeline (_);
-            - Não pode ser palavra reservada (keyword/comandos);
-            - Nomes semânticos;
-        - Endereço;
-        - Tipo de Dado;
-        - Tempo Execução;
-        - XXXXXXX (prof n lembra o 5 atributo);
+  - Atributos:
+    - Nome -> Sistemas de nomeclatura;
+      - Não pode começar com número;
+      - Sem caracteres especiais;
+        - Algumas linguagens não aceitam o undeline (_);
+      - Não pode ser palavra reservada (keyword/comandos);
+      - Nomes semânticos;
+    - Endereço;
+    - Tipo de Dado;
+    - Tempo Execução;
+    - XXXXXXX (prof n lembra o 5 atributo);
 - Comentários: não são interpretados;
 
 Tipos de dado:
-    ALGORITMO:
-        - Numericos;
-            - Inteiro (sem parte fracionária) [INT];
-            - Real (possui parte fracionária) [FLOAT];
-        - Caractere e String [CHAR e STR];
-            - Aspas duplas;
-            - C é um porre com string;
-        - Booleano (Logico) [BOOL];
-            - Verdadeiro (True);
-            - Falso (False);
-            - C não tem booleano;
-        - Declaração de variaveis:
-            - NOME_VAR: TIPO_DE_DADO;
-                EX -> NOME: CHAR[50];
+- ALGORITMO:
+  - Numericos;
+    - Inteiro (sem parte fracionária) [INT];
+    - Real (possui parte fracionária) [FLOAT];
+  - Caractere e String [CHAR e STR];
+    - Aspas duplas;
+    - C é um porre com string;
+  - Booleano (Logico) [BOOL];
+    - Verdadeiro (True);
+    - Falso (False);
+    - C não tem booleano;
+  - Declaração de variaveis:
+    - NOME_VAR: TIPO_DE_DADO;
+      EX -> NOME: CHAR[50];
