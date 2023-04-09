@@ -159,7 +159,7 @@ O número $67_8$ pode ser representado em binário através de $110111_2$ e é e
 
 Hexadecimal:
 
-Vamos converter o numero $\text{8E}_{16}$ para binário
+Vamos converter o numero $\text{8E}\_{16}$ para binário
 
 $8\qquad\quad\text{ }\text{ }\text{E}\qquad\quad\text{ }\text{ }$
 
@@ -167,7 +167,7 @@ $\big\downarrow \qquad\quad \text{ }\text{ }\big\downarrow\qquad\quad\text{ }\te
 
 $1000 \qquad 1110  = 142_{10}$
 
-O número $\text{8E}_{16}$ pode ser representado em binário através de $10001110_2$ e é equivalente a $142_{10}$
+O número $\text{8E}\_{16}$ pode ser representado em binário através de $10001110_{2}$ e é equivalente a $142\_{10}$
 
 ### Dicas
 
