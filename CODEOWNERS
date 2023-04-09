@@ -30,7 +30,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_01/Construcao_Algoritmos/Aula_01/ * @MiraiMindz
+/Periodo_01/Construcao_Algoritmos/Aula_01/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Fundamentos do Sis. de Info.  #
@@ -38,7 +38,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_01/Fundamentos_Sistemas_Informacao/ * @MiraiMindz
+/Periodo_01/Fundamentos_Sistemas_Informacao/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Matenática Básica             #
@@ -46,7 +46,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_01/Matematica_Basica/ * @MiraiMindz
+/Periodo_01/Matematica_Basica/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Organização de Computadores   #
@@ -54,7 +54,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_01/Organizacao_Computadores/ * @MiraiMindz
+/Periodo_01/Organizacao_Computadores/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes ao segundo período           #
@@ -66,7 +66,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Estatistica_Aplicada/ * @MiraiMindz
+/Periodo_02/Estatistica_Aplicada/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Estrutura de Dados I          #
@@ -74,7 +74,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Estrutura_Dados_I/ * @MiraiMindz
+/Periodo_02/Estrutura_Dados_I/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Interface Homem Computador    #
@@ -82,7 +82,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Interface_Homem_Computador/ * @MiraiMindz
+/Periodo_02/Interface_Homem_Computador/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Matemática Discreta           #
@@ -90,7 +90,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Matematica_Discreta/ * @MiraiMindz
+/Periodo_02/Matematica_Discreta/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Metodologia de Pesquisa       #
@@ -98,7 +98,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Metodologia_Pesquisa/ * @MiraiMindz
+/Periodo_02/Metodologia_Pesquisa/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Modelagem de Dados            #
@@ -106,7 +106,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_02/Modelagem_Dados/ * @MiraiMindz
+/Periodo_02/Modelagem_Dados/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes ao terceiro período          #
@@ -118,7 +118,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_03/Banco_Dados_I/ * @MiraiMindz
+/Periodo_03/Banco_Dados_I/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Engenharia de Software I      #
@@ -126,7 +126,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_03/Engenharia_Software_I/ * @MiraiMindz
+/Periodo_03/Engenharia_Software_I/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Estrutura de Dados II         #
@@ -134,7 +134,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_03/Estrutura_Dados_II/ * @MiraiMindz
+/Periodo_03/Estrutura_Dados_II/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. I       #
@@ -142,7 +142,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_03/Programacao_Objetos_I/ * @MiraiMindz
+/Periodo_03/Programacao_Objetos_I/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Sistemas Operacionais         #
@@ -150,7 +150,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_03/Sistemas_Operacionais/ * @MiraiMindz
+/Periodo_03/Sistemas_Operacionais/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes ao quarto período            #
@@ -162,7 +162,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_04/Banco_Dados_II/ * @MiraiMindz
+/Periodo_04/Banco_Dados_II/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Engenharia de Software II     #
@@ -170,7 +170,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_04/Engenharia_Software_II/ * @MiraiMindz
+/Periodo_04/Engenharia_Software_II/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. II      #
@@ -178,7 +178,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_04/Programacao_Objetos_II/ * @MiraiMindz
+/Periodo_04/Programacao_Objetos_II/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Programação Web               #
@@ -186,7 +186,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_04/Programacao_Web/ * @MiraiMindz
+/Periodo_04/Programacao_Web/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Redes de Computadores         #
@@ -194,7 +194,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_04/Redes_Computadores/ * @MiraiMindz
+/Periodo_04/Redes_Computadores/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes ao quinto período            #
@@ -206,7 +206,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_05/Administracao_Controle_Projetos/ * @MiraiMindz
+/Periodo_05/Administracao_Controle_Projetos/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Comunicações Móveis           #
@@ -214,7 +214,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_05/Comunicacoes_Moveis/ * @MiraiMindz
+/Periodo_05/Comunicacoes_Moveis/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. III     #
@@ -222,7 +222,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_05/Programacao_Objetos_III/ * @MiraiMindz
+/Periodo_05/Programacao_Objetos_III/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Teste e Qualidade de Soft.    #
@@ -230,7 +230,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_05/Teste_Qualidade_Software/ * @MiraiMindz
+/Periodo_05/Teste_Qualidade_Software/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes ao sexto período             #
@@ -242,7 +242,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_06/Etica_Legislacao_Responsabilidade_Social/ * @MiraiMindz
+/Periodo_06/Etica_Legislacao_Responsabilidade_Social/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Gestão Empresarial            #
@@ -250,7 +250,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_06/Gestao_Empresarial/ * @MiraiMindz
+/Periodo_06/Gestao_Empresarial/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Gestão Tecnologia da Info.    #
@@ -258,7 +258,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_06/Gestao_Tecnologia_Informacao/ * @MiraiMindz
+/Periodo_06/Gestao_Tecnologia_Informacao/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Programação Disp. Móveis      #
@@ -266,7 +266,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_06/Programacao_Dispositivos_Moveis/ * @MiraiMindz
+/Periodo_06/Programacao_Dispositivos_Moveis/* @MiraiMindz
 
 ################################################################################
 # As seguintes linhas são referentes as aulas de Segurança da Informação       #
@@ -274,7 +274,7 @@
 # linhas de código e anotações presentes nas pasta.                            #
 ################################################################################
 
-/Periodo_06/Seguranca_Informacao/ * @MiraiMindz
+/Periodo_06/Seguranca_Informacao/* @MiraiMindz
 
 ################################################################################
 # Segue abaixo a autoria das anotações referentes as matérias eletivas         #
