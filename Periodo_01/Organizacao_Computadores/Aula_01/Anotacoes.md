@@ -14,7 +14,7 @@ Algebra Booleana.
 
 - Numeros:
   - Inteiros
-    - \-$\infty$ &larr;&HorizontalLine;&rarr; $\infty$
+    - $-\infty\longleftrightarrow\infty$
       - São limitados pelo processador que pode ser de 32 ou 64bits. ($2^{31}$ ou $2^{63}$ pois 1 bit é referente ao sinal) 
   - Reais
 - Letras
@@ -34,10 +34,10 @@ São responsáveis pelos agrupamentos de valores e pela contagem.
 
 Humanos normalmente usam a base 10 para contagem, porém se existem outras bases, como a Binária (2), Octal (8) e Hexadecimal (16).
 
-- $Base_{2}$ (Binário): Tem 2 simbolos &HorizontalLine;&rarr; {0, 1}
-- $Base_{8}$ (Octal): Tem 8 simbolos &HorizontalLine;&rarr; {0, 1, 2, 3, 4, 5, 6, 7}
-- $Base_{10}$ (Decimal): Tem 10 simbolos &HorizontalLine;&rarr; {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-- $Base_{16}$ (Hexadecimal): Tem 10 simbolos &HorizontalLine;&rarr; {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
+- $Base_{2}$ (Binário): Tem 2 simbolos $\longrightarrow$ {0, 1}
+- $Base_{8}$ (Octal): Tem 8 simbolos $\longrightarrow$ {0, 1, 2, 3, 4, 5, 6, 7}
+- $Base_{10}$ (Decimal): Tem 10 simbolos $\longrightarrow$ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+- $Base_{16}$ (Hexadecimal): Tem 10 simbolos $\longrightarrow$ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
 
 Na base 16, usam-se as letras de A até F para representar os valores superiores a 9:
 | Simbolo 	| Valor 	|
@@ -68,7 +68,7 @@ $375_{10} = 3 \times 10^2 + 7 \times 10^1 + 5 \times 10^0 = 375_{10}$
 
 Nós começamos a contar a partir da casa das unidades (ou casa mais a direta), iniciando a exponeciação em 0 (pois todo numero elevado a 0 é igual a 1 por definição.)
 
-> Nota: $375 \ne 375_{10}$, veremos o porque mais a frente.
+Nota: $375 \ne 375_{10}$, veremos o porque mais a frente.
 
 Agora, vejamos um exemplo em base 8:
 
@@ -90,14 +90,15 @@ O método da divisão sucessiva consiste em sucessivamente dividir um numero $n_
 
 Pode ser dado pela fórmula:
 
-> _Dado $n\in\mathbb{R}$ sendo $n$ o numero na qual você deseja converter, $x$ o resto da expressão somatória, $y$ a base na qual você se encontra e $z$ o resultado da divisão, tem-se:_
-> $$
-> \sum_{n}^{x\le1} f(n, x) =
-> \begin{cases}
->   n/y    & \quad \text{if } (x = 0) \text{ and } (n \equiv x \text{ mod } y) \text{ then } n = z \\
->   (n-x)/y & \quad \text{else if } (x \ne 0) \text{ and } (n \equiv x \text{ mod } y) \text{ then } n = z 
-> \end{cases} 
-> $$
+Dado $n\in\mathbb{R}$ sendo $n$ o numero na qual você deseja converter, $x$ o resto da expressão somatória, $y$ a base na qual você se encontra e $z$ o resultado da divisão, tem-se:
+
+$$
+\sum_{n}^{x\le1} f(n, x) =
+\begin{cases}
+  n/y    & \quad \text{if } (x = 0) \text{ and } (n \equiv x \text{ mod } y) \text{ then } n = z \\
+  (n-x)/y & \quad \text{else if } (x \ne 0) \text{ and } (n \equiv x \text{ mod } y) \text{ then } n = z 
+\end{cases} 
+$$
 
 > Nota: Esta fórmula foi escrita por mim por volta das 5 horas da manha, talvez esteja faltando algum pequeno detalhe, mas creio estar correta, vejamos um exemplo de seu objetivo a seguir.
 
@@ -121,11 +122,11 @@ Vejamos o número $31_{10}$, em binário ele é representado por $11111_2$, vamo
 
 Para isso basta agrupar as casas de 3 em 3 algarismos (pois $8 = 2^3$), e calcular o valor máximo de cada grupo em octal, caso não há como completar os grupos, adicione 0 para ajudar na conversão:
 
-$$
-011 \quad 111\qquad\quad \\
-\big\downarrow\quad \quad \big\downarrow\quad\quad\quad \\
-3\text{ }\quad\quad 7 = 37_{8}\text{ }
-$$
+$011 \quad 111\qquad\quad$
+
+$\big\downarrow\quad \quad \big\downarrow\quad\quad\quad$
+
+$3\text{ }\quad\quad 7 = 37_{8}\text{ }$
 
 $37_8$ pois $011_2 = 2 + 1 = 3$ e $111_2 = 4 + 2 + 3 = 7$
 
@@ -133,11 +134,12 @@ Para converter de binário para hexadecimal fazemos o mesmo, porém agrupamos de
 
 veja um exemplo usando o numero $122_{10}$, ele pode ser representado pelo binário $1111010_2$, vejamos a conversão por agrupamento:
 
-$$
-0111 \qquad 1010\qquad\quad\text{ }\text{ } \\
-\big\downarrow \qquad\quad \text{ }\text{ }\big\downarrow\qquad\quad\text{ }\text{ } \\
-7\qquad\quad\text{ }\text{ }\text{A} = \text{7A}_{16}
-$$
+
+$0111 \qquad 1010\qquad\quad\text{ }\text{ }$
+
+$\big\downarrow \qquad\quad \text{ }\text{ }\big\downarrow\qquad\quad\text{ }\text{ }$
+
+$7\qquad\quad\text{ }\text{ }\text{A} = \text{7A}_{16}$
 
 Usamos $\text{A}$ pois $1010_2 = 10$ e $10$ em hexadecimal é representado pelo simbolo $\text{A}$.
 
@@ -147,11 +149,11 @@ Octal:
 
 Vamos converter o numero $67_8$ para binário
 
-$$
-6\text{ }\quad\quad 7\qquad\quad \\
-\big\downarrow\quad \quad \big\downarrow\quad\quad\quad \\
-110 \quad 111 = 55_{10}\text{ } \\
-$$
+$6\text{ }\quad\quad 7\qquad\quad$
+
+$\big\downarrow\quad \quad \big\downarrow\quad\quad\quad$
+
+$110 \quad 111 = 55_{10}\text{ }$
 
 O número $67_8$ pode ser representado em binário através de $110111_2$ e é equivalente a $55_{10}$
 
@@ -159,11 +161,11 @@ Hexadecimal:
 
 Vamos converter o numero $\text{8E}_{16}$ para binário
 
-$$
-8\qquad\quad\text{ }\text{ }\text{E}\qquad\quad\text{ }\text{ }\\
-\big\downarrow \qquad\quad \text{ }\text{ }\big\downarrow\qquad\quad\text{ }\text{ } \\
-1000 \qquad 1110  = 142_{10}\\
-$$
+$8\qquad\quad\text{ }\text{ }\text{E}\qquad\quad\text{ }\text{ }$
+
+$\big\downarrow \qquad\quad \text{ }\text{ }\big\downarrow\qquad\quad\text{ }\text{ }$
+
+$1000 \qquad 1110  = 142_{10}$
 
 O número $\text{8E}_{16}$ pode ser representado em binário através de $10001110_2$ e é equivalente a $142_{10}$
 
