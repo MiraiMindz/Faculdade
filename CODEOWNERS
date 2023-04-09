@@ -1,0 +1,366 @@
+################################################################################
+# Linhas começando com '#' são comentários.                                    #
+# Cada linha é um padrão de arquivo seguido por um ou mais autores.            #
+# A ordem é importante. O último padrão correspondente tem mais precedência.   #
+#                                                                              #
+# Esses autores serão os autores padrões para tudo neste repositório.          #
+# A menos que uma correspondência posterior tome precedência.                  #
+# O usuário @MiraiMindz será requisitado para revisar quando alguém abre uma   #
+# solicitação de inserção de código.                                           #
+################################################################################
+
+* @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao primeiro período          #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Construção de Páginas Web     #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_01/Construcao_Paginas_Web/Aula_01/* @agathva @MiraiMindz
+/Periodo_01/Construcao_Paginas_Web/Aula_02/* @agathva @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Construção de Algoritmos      #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_01/Construcao_Algoritmos/Aula_01/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Fundamentos do Sis. de Info.  #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_01/Fundamentos_Sistemas_Informacao/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Matenática Básica             #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_01/Matematica_Basica/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Organização de Computadores   #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_01/Organizacao_Computadores/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao segundo período           #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Estatística Aplicada          #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Estatistica_Aplicada/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Estrutura de Dados I          #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Estrutura_Dados_I/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Interface Homem Computador    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Interface_Homem_Computador/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Matemática Discreta           #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Matematica_Discreta/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Metodologia de Pesquisa       #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Metodologia_Pesquisa/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Modelagem de Dados            #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_02/Modelagem_Dados/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao terceiro período          #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Banco de Dados I              #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_03/Banco_Dados_I/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Engenharia de Software I      #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_03/Engenharia_Software_I/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Estrutura de Dados II         #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_03/Estrutura_Dados_II/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. I       #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_03/Programacao_Objetos_I/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Sistemas Operacionais         #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_03/Sistemas_Operacionais/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao quarto período            #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Banco de Dados II             #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_04/Banco_Dados_II/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Engenharia de Software II     #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_04/Engenharia_Software_II/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. II      #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_04/Programacao_Objetos_II/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Programação Web               #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_04/Programacao_Web/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Redes de Computadores         #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_04/Redes_Computadores/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao quinto período            #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Admin. e Controle de Proj.    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_05/Administracao_Controle_Projetos/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Comunicações Móveis           #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_05/Comunicacoes_Moveis/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Prog.  Orient. a Obj. III     #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_05/Programacao_Objetos_III/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Teste e Qualidade de Soft.    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_05/Teste_Qualidade_Software/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao sexto período             #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Etica, Legisl. e Resp. Soc.   #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_06/Etica_Legislacao_Responsabilidade_Social/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Gestão Empresarial            #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_06/Gestao_Empresarial/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Gestão Tecnologia da Info.    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_06/Gestao_Tecnologia_Informacao/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Programação Disp. Móveis      #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_06/Programacao_Dispositivos_Moveis/ * @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes as aulas de Segurança da Informação       #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Periodo_06/Seguranca_Informacao/ * @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes as matérias eletivas         #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes a eletiva CISCO CCNA I                    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/CISCO_CCNA_I/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva CISCO CCNA II                   #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/CISCO_CCNA_II/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Desenvolvimento Android         #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Desenvolvimento_Android/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Lab. de Sistemas Operacionais   #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Laboratorio_Sistemas_Operacionais/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Mineração de Dados              #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Mineracao_Dados/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Programação de Aplicativos      #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Programacao_Aplicativos/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Programação Cliente Servidor    #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Programacao_Cliente_Servidor/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva SCILAB                          #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/SCILAB/* @MiraiMindz
+
+################################################################################
+# As seguintes linhas são referentes a eletiva Visualização de Dados           #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/Eletivas/Visualizacao_Dados/* @MiraiMindz
+
+################################################################################
+# Segue abaixo a autoria das anotações referentes ao Trab. Conclusão de Curso  #
+################################################################################
+
+################################################################################
+# As seguintes linhas são referentes ao Trabalho de Conclusão de Curso (TCC)   #
+# Os usuários aqui mencionados foram responsáveis na criação das respectivas   #
+# linhas de código e anotações presentes nas pasta.                            #
+################################################################################
+
+/TCC/TCC_01/* @MiraiMindz
+/TCC/TCC_02/* @MiraiMindz
