@@ -1,9 +1,7 @@
 # Construção de Algoritimos
 
 > Tutor(a): Adriana Sicsú;
-
 > Data: 31/03/23;
-
 > Aula: 01 - Racicínio Lógico;
 
 Raciocinio lógico, estruturar a forma de pensar, projetar as ações;

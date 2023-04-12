@@ -8,7 +8,7 @@ Revisão dos conceitos aprendidos no nível médio.
 
 1. Cálculo Algébrico
 
-1.1. Produtos Notaveis.
+1.1. Produtos Notáveis.
 
 1.2. Fatoração.
 
@@ -22,7 +22,7 @@ Revisão dos conceitos aprendidos no nível médio.
 
 2.2. Definição
 
-2.3. Aplicação Economica
+2.3. Aplicação Econômica
 
 2.3.1. Função Custo, Função Receita e Função Lucro, Ponto de “break even” (Ponto de ruptura)
 
@@ -76,9 +76,9 @@ Revisão dos conceitos aprendidos no nível médio.
 
 2.15.4.3. Relação entre os Coeficientes e as raízes (Relações de Girard)
 
-2.15.4.3.1. Soma das raizes
+2.15.4.3.1. Soma das raízes
 
-2.15.4.3.2. Produto das raizes
+2.15.4.3.2. Produto das raízes
 
 2.15.4.4. Máximo e Mínimo
 
