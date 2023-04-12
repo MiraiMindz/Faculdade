@@ -7,15 +7,15 @@ Apresentar noções introdutórias das normas e diretrizes que regem as atividad
 # Ementa
 
 1. Noções de Direito Constitucional, Penal, Trabalhista, Civil e Código de Defesa do Consumidor;
-2. Noções de Direito do Consumidor - Lei 8078 de 11 de setembro de 1990; 
+2. Noções de Direito do Consumidor - Lei 8078 de 11 de setembro de 1990;
 3. Noções de Direito da Autoria das Obras Intelectuais;
 4. Noções de Direito dos Direitos Patrimoniais do Autor e sua Duração;
 5. Proteção da Propriedade Intelectual de Programa de Computador, Lei 9.609 de 19 de fevereiro de 1998;
 6. Proteção dos Contratos de Licença de Uso, de Comercialização e Transferência de Tecnologia;
 7. Conhecendo Marcas e Patentes;
-8. Noções de Ética; 
-9. Enfoque Filosófico. 
-10. Moral e Direito; 
+8. Noções de Ética;
+9. Enfoque Filosófico.
+10. Moral e Direito;
 11. Ética no Exercício Profissional;
 12. Ética na Profissão e no Mercado de Trabalho;
 13. A Sociedade da Informação e as Mídias Sociais;

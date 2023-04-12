@@ -9,7 +9,7 @@ Desenvolvimento de aplicações para WEB, tanto do lado cliente, como do lado se
 1. Projetos de Sistemas para Web: modelo cliente-servidor, padrão MVC, arquitetura em camadas, protocolo HTTP.
 2. Linguagens de marcação para Interface com o usuário.
 3. Servidores: web, web dinâmico e de aplicação.
-4. Linguagens de programação para Internet. 
+4. Linguagens de programação para Internet.
 5. Tecnologias de apoio à programação para Internet.
 6. Frameworks de programação para Internet.
 

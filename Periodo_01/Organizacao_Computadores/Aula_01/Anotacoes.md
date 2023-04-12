@@ -25,6 +25,7 @@ Algebra Booleana.
 Para todos os conjuntos FINITOS podemos montar uma tabela de codificação.
 
 Tabelas de codificação de texto:
+
 - Ascii
 - UTF-8
 
@@ -40,23 +41,24 @@ Humanos normalmente usam a base 10 para contagem, porém se existem outras bases
 - $Base_{16}$ (Hexadecimal): Tem 10 simbolos $\longrightarrow$ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
 
 Na base 16, usam-se as letras de A até F para representar os valores superiores a 9:
-| Simbolo 	| Valor 	|
-|:-------:	|:-----:	|
-|    A    	|   10  	|
-|    B    	|   11  	|
-|    C    	|   12  	|
-|    D    	|   13  	|
-|    E    	|   14  	|
-|    F    	|   15  	|
+| Simbolo  | Valor  |
+|:-------: |:-----: |
+|    A     |   10   |
+|    B     |   11   |
+|    C     |   12   |
+|    D     |   13   |
+|    E     |   14   |
+|    F     |   15   |
 
 As bases 2, 8 e 16 são relativas entre si devido a exponenciação:
+
 - $2 = 2^{1}$
 - $8 = 2^{3}$
 - $16 = 2^{4}$
 
 Isto será útil para conversão entre as bases.
 
-### Notação Posicional (De qualquer base, para base 10).
+### Notação Posicional (De qualquer base, para base 10)
 
 A notação um modo de representação numérica na qual o valor de cada algarismo depende da sua posição relativa na composição do número. O valor do número é a soma de cada algarismo que o compõe, considerando a posição em que ele se encontra. Posição esta que é dada pela exponenciação da base.
 
@@ -82,7 +84,7 @@ $3D_{16} = 3 \times 16^1 + 13 \times 16^0 = 48 + 13 = 61_{10}$
 
 Veja que substituimos o valor do simbolo $D$ por seu valor correspondente em hexadecimal.
 
-Atente-se que $375 \ne 375_{10}$, pois veja bem, o valor arbitrário $375$ não contem nenhuma base e portanto podemos representar seu valor de forma significativa a partir de $n+1$ bases, onde $n$ representa o algarismo (ou simbolo) de maior valor. Ou seja, podemos interpretar o valor de $375$ em todas as bases possiveis a partir da base $8$. Portanto, se faz necessária a identificação da base, mesmo quando se trata da base 10, para que não haja erros de interpretação. 
+Atente-se que $375 \ne 375_{10}$, pois veja bem, o valor arbitrário $375$ não contem nenhuma base e portanto podemos representar seu valor de forma significativa a partir de $n+1$ bases, onde $n$ representa o algarismo (ou simbolo) de maior valor. Ou seja, podemos interpretar o valor de $375$ em todas as bases possiveis a partir da base $8$. Portanto, se faz necessária a identificação da base, mesmo quando se trata da base 10, para que não haja erros de interpretação.
 
 ### Divisão sucessiva (Da base 10 para quaisquer base)
 

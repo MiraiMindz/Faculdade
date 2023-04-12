@@ -11,14 +11,14 @@ Conhecer as características dos dispositivos móveis; Capacitar o aluno para a 
 3. Evolução de plataformas móveis.
 4. Histórico do Android.
 5. Plataforma de desenvolvimento.
-6. Interfaces e periféricos. 
+6. Interfaces e periféricos.
 7. Criação de interfaces no Android.
 8. Views e ViewGroups.
 9. Uso de câmera e sensores.
-10. Usabilidade em ambientes móveis. 
-11. Persistência e rede. 
-12. Utilização de banco de dados SQLite. 
-13. Conexão com servidores Internet. 
+10. Usabilidade em ambientes móveis.
+11. Persistência e rede.
+12. Utilização de banco de dados SQLite.
+13. Conexão com servidores Internet.
 14. Serviços de persistência remotos.
 15. Elementos gráficos e jogos.
 16. Criação de gráficos no Android.

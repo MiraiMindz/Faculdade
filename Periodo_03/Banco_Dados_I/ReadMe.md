@@ -18,7 +18,7 @@ DESCRIÇÃO NO EMENTÁRIO AUSENTE.
 10. junções
 11. subconsultas
 
-## Bibliografia 
+## Bibliografia
 
 - Oliveira, Celso Henrique Poderoso, Sql: Curso Prático. São Paulo: Novatec, 2002.
 - Silberschatz, Abraham; Korth, Henry; Sudarshan, S. Sistema De Bancos De Dados. 5ª Edição. Rio De Janeiro: Campus, 2005.

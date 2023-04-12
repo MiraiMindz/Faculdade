@@ -9,25 +9,27 @@
 Raciocinio lógico, estruturar a forma de pensar, projetar as ações;
 
 - Torre de Hanoi[USR_LIM=5];
-  - Regras 
+  - Regras
     - (1) Mover apenas um disco por vez;
     - (2) Um disco com diâmetro maior nunca pode ficar sobre um disco com diâmetro menor;
 - Jogo do Rio - Jogos 360;
 - Canibais e Missionários;
 
-https://rachacuca.com.br/logica/problemas/teste-de-einstein/; // -> 3:59m
+<https://rachacuca.com.br/logica/problemas/teste-de-einstein/>; // -> 3:59m
 
-https://code.org;
+<https://code.org>;
 
-https://www.youtube.com/watch?v=cDA3_5982h8&themeRefresh=1; // Exact Instructions Challenge 
+<https://www.youtube.com/watch?v=cDA3_5982h8&themeRefresh=1>; // Exact Instructions Challenge
 
 Algoritmo -> interpretação;
 
 Algoritmo:
-  - Linguagem Natural;
-  - Descrever passo-a-passo o problema;
+
+- Linguagem Natural;
+- Descrever passo-a-passo o problema;
 
 Cenário:
+
 - sozinho (isolado)
 - ovo na geladeira
 - sem telefone
@@ -79,17 +81,20 @@ Faltou tomperro;
 
 Checar a validade do ovo;
 
-
 Algoritmo:
+
 - Descrever passo-a-passo como resolver um problema;
 
 Problema:
+
 - Faça um algoritmo que entre com o valor de um produto e ao final informar o valor pago com 5% de desconto;
 
 Livro:
+
 - Fundamentos da Programação de Computadores: Algoritmos, Pascal, C, C++ e Java;
 
 Estruturando o pensamento:
+
 - 01\. Objetivo: Calcular o valor do produto com 5% de desconto (Interpretar o texto);
 - 02\. Obter o valor do produto;
   - 02.01. Quem fornece este valor? O Usuário;
@@ -107,6 +112,7 @@ Conhecimento é informação aplicada (Experiencia + Informação);
 ---------------------------------
 
 Conceitos:
+
 - Variavel (Alocação de memória)
   - Atributos:
     - Nome -> Sistemas de nomeclatura;
@@ -122,6 +128,7 @@ Conceitos:
 - Comentários: não são interpretados;
 
 Tipos de dado:
+
 - ALGORITMO:
   - Numericos;
     - Inteiro (sem parte fracionária) [INT];

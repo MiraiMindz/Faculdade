@@ -9,12 +9,12 @@ Desenvolver programas computacionais que utilizem requisitos avançados e estrut
 1. Tecnologia Servlets.
 2. Aplicativos Servlets.
 3. Conectividade a banco de dados: JDBC.
-4. Gerenciamento de sessão. 
-5. Filtragem. 
-6. Scripts JSP. 
-7. Modelo de Componentes. 
+4. Gerenciamento de sessão.
+5. Filtragem.
+6. Scripts JSP.
+7. Modelo de Componentes.
 8. Acionamento.
-9. Tags personalizadas. 
+9. Tags personalizadas.
 10. Segurança.
 
 ## Bibliografia

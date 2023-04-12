@@ -4,21 +4,21 @@ Tutor(a): Adriana Sicsú
 
 Conceituar software e Engenharia de Software; compreender os modelos de ciclo de vida do Software. Aplicar as técnicas de levantamento de requisitos. Descrever os requisitos e diferenciar seus tipos; Conceituar qualidade de software e diferenciar qualidade do produto e do processo; Descrever e exemplificar métricas de software; Identificar os conceitos e práticas da gerência de projetos; Descrever os conceitos básicos de teste de software e seus tipos.
 
-## Ementa 
+## Ementa
 
-1. Introdução à Engenharia de Software. 
-2. Modelos de Ciclo de Vida de Software. 
+1. Introdução à Engenharia de Software.
+2. Modelos de Ciclo de Vida de Software.
 3. Produto de Software.
-4. Técnicas de Levantamento de Requisitos. 
-5. Estudo de Viabilidade. 
-6. Especificação de Sistemas de Software utilizando Paradigmas de Análise e Projeto de Sistemas. 
-7. Gerenciamento do Tempo. 
-8. Métrica de Software. 
-9. Introdução à Gerência de Projetos. 
-10. Qualidade de Software. 
-11. Gerenciamento de Riscos. 
+4. Técnicas de Levantamento de Requisitos.
+5. Estudo de Viabilidade.
+6. Especificação de Sistemas de Software utilizando Paradigmas de Análise e Projeto de Sistemas.
+7. Gerenciamento do Tempo.
+8. Métrica de Software.
+9. Introdução à Gerência de Projetos.
+10. Qualidade de Software.
+11. Gerenciamento de Riscos.
 12. Testes e Revisão de Software.
-13. Implantação de Software. 
+13. Implantação de Software.
 14. Manutenção de Software.
 
 ## Bibliografia

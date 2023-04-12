@@ -5,7 +5,7 @@ Resolver problemas sobre instalação, configuração e integração de ferramen
 ## Ementa
 
 1. Linguagens Script.
-2. JavaScript. 
+2. JavaScript.
 3. PHP.
 
 ## Bibliografia

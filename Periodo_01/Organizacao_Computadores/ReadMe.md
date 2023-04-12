@@ -9,35 +9,65 @@ Dotar o aluno dos conhecimentos necessários para entender os sistemas computaci
 Esta é a ementa dada pelo(a) tutor(a).
 
 Unidade 1: Conceituação
+
 1.1 Evolução Histórica do Computador
+
 1.2 Classificação dos Sistemas de Computação
+
 1.3 Programação de computadores
+
 Unidade 2: Conversão de bases e aritmética computacional
+
 2.1 Sistemas de Numeração
+
 2.2 Os sistemas: decimal, binário e hexadecimal
+
 2.3 Conversões entre os sistemas de numeração
+
 2.4 Aritmética binária e hexadecimal
+
 2.5 Representação de números inteiros
+
 2.5.1 Sinal Magnitude e Complemento a 2
+
 2.7 Tabelas de Representação de Caracteres: ASCII, ISO, UNICODE.
+
 Unidade 3: Conceitos de Lógica Digital
+
 3.1 Portas e operações lógicas
+
 3.2 Tabela da Verdade. Expressões Lógicas.
+
 3.3 Circuitos Lógicos digitais básicos (Decodificador e Flip-Flop).
+
 3.4 Relógio
+
 Unidade 4: Componentes do Computador
+
 4.1 Modelo de Von Neumann
+
 4.2 Processador
+
 4.2.1 Componentes do Processador
+
 4.2.1.1 Unidade Aritmética e Lógica
+
 4.2.1.2 Registradores
+
 4.2.1.3 Unidade de Controle
+
 4.2.1.4 O Relógio
+
 4.3 Memória
+
 4.3.1 Hierarquia de Memória
+
 4.3.2 Registradores
+
 4.3.3 Memória Cache
+
 4.3.4 Memória Principal
+
 4.3.5 Memória Secundária
 
 ### Ementário
@@ -63,8 +93,8 @@ Esse é o ementário oficial divulgado pela instituição.
 - representação de números reais
 - padrão IEEE754
 - tabelas de representação de caracteres: ASCII, ISO, Unicode
-- portas e operações lógicas; 
-- tabela verdade. 
+- portas e operações lógicas;
+- tabela verdade.
 - Expressões lógicas
 - noções de circuitos lógicos digitais básicos (decodificador e flipflop)
 - relógio
@@ -88,7 +118,6 @@ Esse é o ementário oficial divulgado pela instituição.
 - processadores com vários núcleos
 - dispositivos de entrada e saída
 - barramentos.
-
 
 ## Bibliografia
 

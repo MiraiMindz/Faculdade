@@ -10,7 +10,7 @@ Compreender os conceitos e características dos sistemas operacionais; relaciona
 - Relações Entre Os Sistemas Operacionais Conhecidos E Respectiva Classificação
 - Conceitos De Unidade De Alocação, Carga E Execução De Um Programa (Processos E Threads)
 - Concorrência E Sincronização Entre Processos
-- Mecanismos De Gerência De Recursos 
+- Mecanismos De Gerência De Recursos
 - Sistema De Arquivos
 - Laboratório (Eletiva)
 

@@ -18,4 +18,4 @@ Apresentar técnicas estatísticas para análise de dados reais. Abordar os prin
 
 - Análise de dados com Python e Pandas, Daniel Y. Chen, Ed. Novatec (2018), ISBN-10: 8575226991.
 - Mastering Matplotlib, Duncan M. McGreggor., Packt Publishing (2015). ISBN-10: 8550800236
-- https://matplotlib.org/ 
+- <https://matplotlib.org/>

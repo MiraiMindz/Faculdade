@@ -6,7 +6,7 @@ Apresentar ferramentas existentes e estimular o desenvolvimento de novas.
 
 ## Ementa
 
-1. Análise Exploratória de Dados. 
+1. Análise Exploratória de Dados.
 2. Mineração de Dados: tarefas, etapas, algoritmos.
 3. Avaliação de algoritmos.
 

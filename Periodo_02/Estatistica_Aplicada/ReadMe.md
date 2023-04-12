@@ -24,7 +24,7 @@ Apresentar as ideias e conceitos fundamentais da estatística, como conceitos so
 16. variável aleatória discreta e contínua
 17. Distribuições discretas de probabilidade.
 18. Distribuição contínua de probabilidade.
-19. Estimação 
+19. Estimação
 20. Inferência Estatística.
 
 ## Bibliografia

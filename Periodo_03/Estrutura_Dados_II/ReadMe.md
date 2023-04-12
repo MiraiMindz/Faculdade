@@ -12,7 +12,7 @@ O objetivo da disciplina é apresentar algoritmos e estruturas de dados avançad
 4. Balanceamento de árvores binárias.
 5. Árvores binárias de busca.
 6. Grafos.
-7. Implementação de algoritmos utilizando as estruturas de dados ensinadas. 
+7. Implementação de algoritmos utilizando as estruturas de dados ensinadas.
 
 (Linguagem sugerida: C/C++).
 

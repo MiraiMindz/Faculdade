@@ -6,18 +6,18 @@ Identificar os recursos da Tecnologia da Informação a disposição das empresa
 
 ## Ementa
 
-1. Conceitos gerais de recursos do ambiente de Tecnologia da Informação e Comunicação. 
+1. Conceitos gerais de recursos do ambiente de Tecnologia da Informação e Comunicação.
 2. Processos e serviços no ambiente de Tecnologia da Informação e Comunicação.
-3. Governança em Tecnologia da Informação e Comunicação. 
-4. Governança Corporativa. 
-5. Governança de TI. 
+3. Governança em Tecnologia da Informação e Comunicação.
+4. Governança Corporativa.
+5. Governança de TI.
 6. Alinhamento entre Estratégia Corporativa e a Tecnologia da Informação.
-7. Normas, processos e indicadores de desempenho para a área de TI. 
+7. Normas, processos e indicadores de desempenho para a área de TI.
 8. Modelos de apoio para Governança de TI.
 9. Maturidade dos modelos de governança de TI.
 10. Estruturação de um Plano de Implantação de um modelo de Governança de TI.
 
-## Bibliografia 
+## Bibliografia
 
 ### Básica
 

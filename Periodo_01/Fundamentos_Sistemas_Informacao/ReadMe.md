@@ -28,5 +28,3 @@ Abordar os conteúdos que fundamentam a área de Sistemas de Informação, envol
 - Côrtes, P. L. Administração De Sistemas De Informação. São Paulo, Saraiva, 2008.
 - Stair, R. M.; Reynolds, G. W. Princípios De Sistemas De Informação:Uma Abordagem Gerencial. 4a. Ed. Rio De Janeiro, Ltc, 1999.
 - Oliveira, D. P. R. Sistemas De Informações Gerenciais: Estratégicas, Táticas Operacionais. 7a. Ed. São Paulo: Atlas, 2001
-
-

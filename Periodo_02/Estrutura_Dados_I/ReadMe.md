@@ -9,7 +9,7 @@ O objetivo da disciplina é apresentar algoritmos e estruturas de dados avançad
 1. Recursividade
 2. Ponteiros
 3. Estruturas de dados heterogêneas e alocação dinâmica de estrutura de dados
-4. Uso de alocação de memória estática e dinâmica para implementação de lista, pilha, fila e deque. 
+4. Uso de alocação de memória estática e dinâmica para implementação de lista, pilha, fila e deque.
 4. Implementação de algoritmos utilizando as estruturas de dados ensinadas
 
 (Linguagem sugerida: C/C++).

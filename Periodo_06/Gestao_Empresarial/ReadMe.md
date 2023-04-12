@@ -12,7 +12,6 @@ Capacitar o aluno para que o mesmo possa idealizar um plano de negócios e opera
 4. Técnicas de gestão.
 5. Tipologia das organizações.
 
-
 ## Bibliografia
 
 ### Básica

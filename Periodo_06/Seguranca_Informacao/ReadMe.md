@@ -10,10 +10,9 @@ Conhecer os fundamentos da Segurança da Informação. Compreender a equação d
 2. Gestão do Risco.
 3. Ataques cibernéticos.
 4. Ferramentas de proteção.
-5. Boas práticas no desenvolvimento de sistemas (CLASP/OWASP, SDL e outras). 
+5. Boas práticas no desenvolvimento de sistemas (CLASP/OWASP, SDL e outras).
 6. Criptografia e autenticação de dados.
 7. Normas e certificações técnicas (família ISO 27000, PCI-DSS, SOX, COSO, HIPAA, ITIL e COBIT).
-
 
 ## Bibliografia
 

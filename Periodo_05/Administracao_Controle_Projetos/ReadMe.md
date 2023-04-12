@@ -4,7 +4,7 @@ Tutor(a): SUBSTITUTO
 
 Identificar aos conceitos e práticas da gerência de projetos; descrever as diferentes. atividades envolvidas na gerência de projetos de software; elaborar o planejamento de projetos de software utilizando técnicas e ferramentas de gerência em projetos.
 
-## Ementa 
+## Ementa
 
 1. Conceitos.
 2. Aspectos organizacionais.
@@ -13,9 +13,9 @@ Identificar aos conceitos e práticas da gerência de projetos; descrever as dif
 5. Ferramentas de planejamento.
 6. Modelo para estimativa de tempo e de custos.
 7. Organização da equipe.
-8. Fatores humanos. 
-9. Produtividade dos programadores. 
-10. Pontos de controle. 
+8. Fatores humanos.
+9. Produtividade dos programadores.
+10. Pontos de controle.
 11. Garantia da qualidade.
 12. Manutenção de softwares.
 13. Gerência de riscos.

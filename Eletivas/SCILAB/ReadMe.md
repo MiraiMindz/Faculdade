@@ -8,5 +8,5 @@ Difusão do uso de softwares de código livre no meio acadêmico no Brasil. Ensi
 
 ## Bibliografia
 
-- http://www.scilab.org/
+- <http://www.scilab.org/>
 - Rietsch, Eike. An Introduction To Scilab From A Matlab User's Point Of View. Version 2.7-1.0 1. September 14, 2003.
