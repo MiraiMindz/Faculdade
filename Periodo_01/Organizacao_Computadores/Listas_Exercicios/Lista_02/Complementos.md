@@ -10,7 +10,7 @@ Usando essa propriedade conseguimos exercer N complementos, a fins de aplicabili
 
 ## O que é o complemento a 1?
 
-O complemento a 1 é apenas uma forma de inverter os números em dada base para descobrir seu equivalente negativo, seu nome no entanto, originou-se desta operação nos binários, pois, ao adicionarmos a negação de um numero binário $x$ (formalmente chamada de '~$x$') para o número originário ($x$) obteríamos apenas 1's.
+O complemento a 1 é apenas uma forma de inverter os números em dada base para descobrir seu equivalente negativo, seu nome no entanto, originou-se desta operação nos binários, pois, ao adicionarmos a negação de um numero binário $x$ (formalmente chamada de '~ $x$') para o número originário ($x$) obteríamos apenas 1's.
 
 Para performar uma operação de complemento a 1 em binário, utilizamos o MSB (Most Significant Bit/Bit Mais Significativo) como bit de sinal, sendo 0 para positivo e 1 para negativo. Tendo estabelecido isso, nós invertemos TODOS os bits, não apenas o de sinal, e adicionamos ao número original, antes de partirmos para o cálculo em binário irei exemplificar na base 10 (complemento a 9).
 
@@ -28,7 +28,7 @@ Agora vamos fazer em binário, suponhamos que você queira saber o resultado de 
 - Primero localizamos a negação de $-3$, que pode ser obtida invertendo todos os bits do numero $3$, incluindo o de sinal, resultando em $(1100)_2$
 - Adicionamos esse resultado ao $3$ em binário $(0011)_2 + (1100)_2$, resultando em $(1111)_2$
 
-Ok, é intuitivo pensar que $(1111)_2 = 15$, mas lembre-se que o MSB é usado para sinal e que nós havíamos negado o numero, ou seja, estamos vendo o *aditivo simétrico* do resultado, então vamos negar novamente para obtermos o nosso resultado, ~$(1111)_2 = (0000)_2 = +0$.
+Ok, é intuitivo pensar que $(1111)_2 = 15$, mas lembre-se que o MSB é usado para sinal e que nós havíamos negado o numero, ou seja, estamos vendo o *aditivo simétrico* do resultado, então vamos negar novamente para obtermos o nosso resultado, ~ $(1111)_2 = (0000)_2 = +0$.
 
 Ok, sei que ficou confuso, $+0$? Bom, dado a definição de complemento a 1, todo e quaisquer número tem um aditivo simétrico que resulta em $0$ e o próprio Zero se encaixa nessa denominação, então se existem $+0$ e $-0$ pois, $0$ &pm; $0 = 0$, esse é um *problema inerente a complemento a 1.*
 
@@ -47,7 +47,7 @@ O processo é simples, dada a operação $A - B$:
 
 > Nota: todo esse raciocínio de conceitos, foram gerados por mim enquanto eu refletia e experimentava com cálculos pra descobrir o porque de nós somarmos 1 em complemento a 2, eu queria uma resposta lógica fundamentada na nossa compreensão algébrica, e não algo "tirado do nada". (O professor não nos deu uma explicação do porque, apenas a forma de aplicação.)
 
-O complemento a 2 surgiu para solucionar o problema do &pm;$0$, e ele se usa se baseia no "agrupamento fundamental" da nossa noção de números.
+O complemento a 2 surgiu para solucionar o problema do &pm; $0$, e ele se usa se baseia no "agrupamento fundamental" da nossa noção de números.
 
 Irei trabalhar com a premissa verbal primeiro,. Nós normalmente trabalhamos com 3 conceitos quando o assunto é contagem: *perder*, *ganhar* e o *nada*.
 
