@@ -14,7 +14,7 @@ Algebra Booleana.
 
 - Numeros:
   - Inteiros
-    - $-\infty\longleftrightarrow\infty$
+    - $-\infty\longleftarrow0\longrightarrow+\infty$
       - São limitados pelo processador que pode ser de 32 ou 64bits. ($2^{31}$ ou $2^{63}$ pois 1 bit é referente ao sinal) 
   - Reais
 - Letras
