@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt de entrada</title>
+</head>
+<body>
+    <p>Clique para exibir</p>
+    <button onclick="mFunc()">Clique aqui</button>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        function mFunc(){
+            var x;
+            var y;
+            var idade=prompt("Digite sua idade: ");
+            if (idade != null){
+                x = "Idade: " + idade + " anos. ";
+                y = "Idade: " + idade*365 + " dias."
+                document.getElementById("demo1").innerHTML=x;
+                document.getElementById("demo2").innerHTML=y;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title>
+</head>
+<body>
+    <button onclick="test()">
+        <p>Desejas ver a mensagem oculta?</p>
+    </button>
+    <p id="text00"></p>
+
+    <script type="text/javascript">
+        // // // document.write("Hello World");
+        // // x = "Hello World!";
+        // // document.write(x);
+        // // y = "Funcionando";
+        // // document.write("<br><br>", "ok " + y);
+        // let s1 = 12;
+        // let s2 = 28;
+        // let sum = s1 + s2;
+        // let sub = s2 - s1 ;
+        // let mul = s1 * s2;
+        // let div = s2 / s1;
+        // document.write(`<br/>S1 = ${s1} e S2 = ${s2}`);
+        // document.write("<br/>Soma: " + sum);
+        // document.write("<br/>Subtração: " + sub);
+        // document.write("<br/>Multiplicação: " + mul);
+        // document.write("<br/>Divisão: " + div);
+        // // alert("Vamos ver os resultados?");
+        
+        // function teste() {
+        //     confirm("Vamos ver os resultados?");
+        // }
+
+        function test() {
+            let text;
+            let answer;
+            answer = confirm("Escolha 'OK' para confirmar.")
+            if (answer) {
+                text = "sei lá."
+            } else {
+                text = "ye"
+            }
+            let textElement = document.getElementById("text00");
+            textElement.innerHTML = text;
+        }
+    </script>
+</body>
+</html>
+
+<!--
+    Em JavaScript podemos usar ; como delimitador de código
+    JavaScript é sensivel a captitação (Maiuscula e Minuscula)
+    Operadores:
+        - Aritméticos
+        - Comparativos
+        - lógicos
+-->
