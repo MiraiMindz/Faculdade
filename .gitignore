@@ -1,2 +1,6 @@
 # Ignora a pasta de configurações do vscode
 .vscode/
+
+
+# Ignora a pasta de configurações do obsidian
+.obsidian/
