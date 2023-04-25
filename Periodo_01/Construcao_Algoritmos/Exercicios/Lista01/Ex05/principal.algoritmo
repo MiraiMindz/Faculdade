@@ -1,15 +1,19 @@
 /**
- *  Titulo
- *  Descricao
- *  Nome
- *  Data
+ *  Exercício 05
+ *  Faça um programa que receba o preço de um produto, calcule e mostre o novo preço, sabendo-se que este sofreu um desconto de 10%.
+ *  Bruno Barreto
+ *  25/04/23
 **/
 
-ALGORITMO nome
-
-	// Declaracao de Variaveis
+ALGORITMO Ex05
+	precoBase, resultado: real
 INICIO
+	escreva("Esse programa existe com o propósito de calcular 10% de desconto sobre um dado produto.")
+	escreva("Insira o preço do produto: ")
+	leia(produto)
 
+	resultado <- produto - (produto * 0.9)
+	escreva("O resultado é: ", resultado)
 FIM
 
 

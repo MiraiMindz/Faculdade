@@ -1,4 +1,4 @@
-// Exercicio 1: Retorne a subtração de dois numeros
+// Exercício 1: Retorne a subtração de dois numeros
 
 /* Tabelinha de portugol
 * Entrada (pelo usuário)        Processamento                       Saida
@@ -99,7 +99,7 @@ programa {
   }
 }
 
-// Exercicio 2 do capitulo 3: multiplique 3 numeros
+// Exercício 2 do capitulo 3: multiplique 3 numeros
 programa {
   funcao inicio() {
     real numero1, numero2, numero3, resultado
@@ -115,7 +115,7 @@ programa {
   }
 }
 
-// Exercicio 4: retorne a media ponderada de duas notas
+// Exercício 4: retorne a media ponderada de duas notas
 Mp = [(N1 x P1) + (N2 x P2) + (N3 x P3) + ... (Nx x Px)] ÷ (P1 + P2 + P3 + ... Px)
 
 programa {
@@ -136,7 +136,7 @@ programa {
 
 
 // Código da tutora
-Exercicio 4
+Exercício 4
 programa {
   funcao inicio()
     //variaveis

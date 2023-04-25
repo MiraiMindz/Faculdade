@@ -130,7 +130,7 @@ leia
 leia individualmente (um comando por variavel)
 e execute o `escreva` antes do `leia`
 
-Do livro, a professora cobra os `exercicios propostos`
+Do livro, a professora cobra os `Exercícios propostos`
 
 
 Variavel e Constante
