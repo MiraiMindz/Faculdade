@@ -8,12 +8,27 @@
  *  	5. o salário a receber equivale ao salário bruto mais a quantia a receber pelas horas extras.
  *  Bruno Barreto
  *  25/04/23
-**/
+ **/
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
+	float horasTrabalhadas, salarioMinimo, horasExtras, salarioFinal;
+
+	printf("%s\n", "Esse programa existe com o propósito de calcular um salário dado as horas trabalhadas, horas extras e o valor de um salário mínimo.");
+
+	printf("Insira o valor do salário minimo: ");
+	scanf("%f", &salarioMinimo);
+
+	printf("Insira o valor das horas trabalhadas: ");
+	scanf("%f", &horasTrabalhadas);
+
+	printf("Insira o valor das horas extras trabalhadas: ");
+	scanf("%f", &horasExtras);
+
+	salarioFinal = ((horasTrabalhadas * (salarioMinimo / 8)) + (horasExtras * (salarioMinimo / 4)));
+
+	printf("%s %.2f\n", "O salário final a receber é de: ", salarioFinal);
 
 	return 0;
 }

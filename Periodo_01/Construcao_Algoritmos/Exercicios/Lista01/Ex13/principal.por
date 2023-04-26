@@ -7,7 +7,14 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		inteiro numero
+		escreva("Esse programa existe com o propósito de calcular a tabuada de dado número\n")
+		escreva("Insira o número desejado: ")
+		leia(numero)
+		escreva("Seus resultados são: \n")
+		para (inteiro i = 1; i <= 10; i++) {
+			escreva(numero, " × ", i, " = ", (i * numero), "\n")
+		}
 	}
 }
 

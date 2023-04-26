@@ -7,8 +7,7 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
 	int numero1, numero2, numero3, resultado;
 
 	printf("Esse programa existe com o propósito de coletar três numeros e exibir a multiplicação entre eles.\n");

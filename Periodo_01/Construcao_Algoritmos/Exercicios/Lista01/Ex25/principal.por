@@ -10,7 +10,17 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real horas, minutos
+		escreva("Esse programa existe com o propósito de calcular uma dada hora, com minutos, e converte-la para minutos e segundos.")
+		escreva("Insira as horas: ")
+		leia(horas)
+
+		escreva("Insira os minutos: ")
+		leia(minutos)
+
+		escreva("A hora digita em minutos é: ", (horas * 60), "\n")
+		escreva("O total de minutos é de: ", (minutos + (horas * 60)), "\n")
+		escreva("O total de segundos é de: ", ((minutos + (horas * 60)) * 60), "\n")
 	}
 }
 

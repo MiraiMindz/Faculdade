@@ -7,7 +7,17 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real comprimento, largura, resultado
+		escreva("Esse programa existe com o propósito de calcular o consumo total em Watts dado um determinado cômodo, assumindo 18W por m².\n")
+	
+		escreva("Insira o comprimento do cômodo: ")
+		leia(comprimento)
+		
+		escreva("Insira a largura do cômodo: ")
+		leia(largura)
+
+		resultado = (comprimento * largura) * 18
+		escreva("O resultado é de ", resultado, " Watts\n")
 	}
 }
 

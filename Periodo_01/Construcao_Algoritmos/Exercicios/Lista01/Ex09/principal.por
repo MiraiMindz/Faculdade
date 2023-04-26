@@ -9,6 +9,8 @@ programa {
 	funcao inicio() {
 		real baseMenor, baseMaior, altura, area
 
+		escreva("Esse programa existe com o propósito de calcular a area de um trapézio, dado suas bases\n")
+
 		escreva("Insira a largura da base menor: ")
 		leia(baseMenor)
 		escreva("Insira a largura da base maior: ")

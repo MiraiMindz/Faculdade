@@ -7,8 +7,18 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
+	float dividendo, divisor, resultado;
+	printf("%s\n", "Esse programa existe com o propósito de dividir dois números entre si assumindo que o primeiro seja diferente de 0.");
+
+	printf("Insira o dividendo: ");
+	scanf("%f", &dividendo);
+
+	printf("Insira o divisor: ");
+	scanf("%f", &divisor);
+
+	resultado = dividendo / divisor;
+	printf("%s %.2f\n", "O resultado é:", resultado);
 
 	return 0;
 }

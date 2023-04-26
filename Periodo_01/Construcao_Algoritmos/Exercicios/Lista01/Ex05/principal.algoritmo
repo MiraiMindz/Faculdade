@@ -10,9 +10,9 @@ ALGORITMO Ex05
 INICIO
 	escreva("Esse programa existe com o propósito de calcular 10% de desconto sobre um dado produto.")
 	escreva("Insira o preço do produto: ")
-	leia(produto)
+	leia(precoBase)
 
-	resultado <- produto - (produto * 0.9)
+	resultado <- precoBase * 0.9
 	escreva("O resultado é: ", resultado)
 FIM
 

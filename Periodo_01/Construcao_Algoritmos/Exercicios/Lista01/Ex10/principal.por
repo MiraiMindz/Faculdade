@@ -7,7 +7,12 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real lado
+		escreva("Esse programa existe com o propósito de calcular a area de um quadrado, dado um determinado lado.\n")
+		escreva("Insira a medida do lado: ")
+		leia(lado)
+
+		escreva("O resultado é: ", (lado * lado))
 	}
 }
 

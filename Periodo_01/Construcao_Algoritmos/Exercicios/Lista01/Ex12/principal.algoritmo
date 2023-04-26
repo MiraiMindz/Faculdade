@@ -12,11 +12,11 @@ INICIO
 	escreva("Insira o valor do salário minimo atual: ")
 	leia(salarioMinimo)
 
-	escreva("Insira o valor do salário do funcionário; ")
+	escreva("Insira o valor do salário do funcionário: ")
 	leia(salarioFuncionario)
 
 	resultado <- salarioFuncionario / salarioMinimo
-	escreva("O funcionário recebe aproximadamente ", resultado, " salários minimos".)
+	escreva("O funcionário recebe aproximadamente ", resultado, " salários minimos.")
 FIM
 
 

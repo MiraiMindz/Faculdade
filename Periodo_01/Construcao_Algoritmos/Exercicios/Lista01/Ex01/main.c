@@ -7,8 +7,7 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
 	int numero1, numero2, resultado;
 	printf("Esse programa existe com o propósito de coletar dois numeros e exibir a subtração entre eles.\n");
 	printf("Insira o primeiro numero: ");

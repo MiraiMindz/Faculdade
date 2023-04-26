@@ -7,21 +7,20 @@
 
 #include <stdio.h>
 
-int main()
-{
-	float nota1, nota2, peso1, peso2, resultado;
-	peso1 = 2.0;
-	peso2 = 3.0;
-	printf("Esse programa existe com o propósito de calcular a média ponderada de duas notas, sendo considerados peso 2 para a primeira e peso 3 para a segunda.\n");
+int main() {
+    float nota1, nota2, peso1, peso2, resultado;
+    peso1 = 2.0;
+    peso2 = 3.0;
+    printf("Esse programa existe com o propósito de calcular a média ponderada de duas notas, sendo considerados peso 2 para a primeira e peso 3 para a segunda.\n");
 
-	printf("Insira a primeira nota: ");
-	scanf("%f", &nota1);
+    printf("Insira a primeira nota: ");
+    scanf("%f", &nota1);
 
-	printf("Insira a segunda nota: ");
-	scanf("%f", &nota2);
+    printf("Insira a segunda nota: ");
+    scanf("%f", &nota2);
 
-	resultado = ((nota1 * peso1) + (nota2 * peso2) / (peso1 + peso2));
+    resultado = ((nota1 * peso1) + (nota2 * peso2) / (peso1 + peso2));
 
-	printf("%s %.2f\n", "Seu resultado é: ", resultado);
-	return 0;
+    printf("%s %.2f\n", "Seu resultado é: ", resultado);
+    return 0;
 }

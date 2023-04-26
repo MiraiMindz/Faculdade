@@ -8,6 +8,8 @@
 ALGORITMO Ex
 	baseMenor, baseMaior, altura, area: real
 INICIO
+	escreva("Esse programa existe com o propósito de calcular a area de um trapézio, dado suas bases")
+
 	escreva("Insira a largura da base menor: ")
 	leia(baseMenor)
 	escreva("Insira a largura da base maior: ")

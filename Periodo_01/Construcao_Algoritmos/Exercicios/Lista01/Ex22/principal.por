@@ -7,7 +7,13 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		inteiro lados
+		escreva("Esse programa existe com o propósito de calcular o numero de diagonais de dado o numero de lados de um poligono convexo.\n")
+
+		escreva("Insira o número de lados: ")
+		leia(lados)
+		
+		escreva("O número de diagonais é de: ", ((lados * (lados - 3)) / 2))
 	}
 }
 

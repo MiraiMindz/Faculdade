@@ -8,8 +8,8 @@
 programa {
 	funcao inicio() {
 		real nota1, nota2, peso1, peso2, resultado
-		peso1 = 2
-		peso2 = 3
+		peso1 = 2.0
+		peso2 = 3.0
 		escreva("Esse programa existe com o propósito de calcular a média ponderada de duas notas, sendo considerados peso 2 para a primeira e peso 3 para a segunda.\n")
 		escreva("Insira a primeira nota: ")
 		leia(nota1)

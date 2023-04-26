@@ -7,7 +7,12 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real temperaturaCelsius
+		escreva("Esse programa existe com o propósito de converter uma temperatura em Celsius para Fahrenheit.\n")
+		escreva("Insira a temperatura em Celsius: ")
+		leia(temperaturaCelsius)
+
+		escreva("A temperatura em Fahrenheit é de: ", ((180 * (temperaturaCelsius + 32)) / 100), "\n")
 	}
 }
 

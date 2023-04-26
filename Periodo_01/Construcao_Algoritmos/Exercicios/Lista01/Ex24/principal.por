@@ -10,7 +10,14 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real valorReal
+		escreva("Esse programa existe com o propósito de converter cotações monetárias, em específico do Real para: Marco, Dolar e Libra-esterlina.\n")
+		escreva("Insira sua quantia atual em Reais: ")
+		leia(valorReal)
+
+		escreva("Sua quantia em Dolar é de: ", (valorReal * 1.80), "\n")
+		escreva("Sua quantia em Marco é de: ", (valorReal * 2), "\n")
+		escreva("Sua quantia em Libra-esterlina é de: ", (valorReal * 3.57), "\n")
 	}
 }
 

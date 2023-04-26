@@ -7,7 +7,19 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real salarioBruto, valorVendas, comissao, salarioFinal
+		escreva("Esse programa existe com o propósito de calcular uma comissão de 4% sobre determinado valor de vendas em um dado salário.\n")
+		escreva("Insira o salário bruto: ")
+		leia(salarioBruto)
+
+		escreva("Insira o valor total das vendas: ")
+		leia(valorVendas)
+
+		comissao = valorVendas * 0.04
+		salarioFinal = salarioBruto + comissao
+
+		escreva("A comissão foi de: ", comissao, "\n")
+		escreva("O salário final é de: ", salarioFinal)
 	}
 }
 

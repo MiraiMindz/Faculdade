@@ -7,7 +7,20 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real salario, conta1, conta2, resultado
+		escreva("Esse programa existe com o propósito de calcular um aumento de 2% sobre duas contas e descontar de um dado salário.\n")
+		escreva("Insira o valor do salário: ")
+		leia(salario)
+
+		escreva("Insira o valor da primeira conta: ")
+		leia(conta1)
+
+		escreva("Insira o valor da segunda conta: ")
+		leia(conta2)
+
+		resultado = (salario - ((conta1 + (conta1 * 0.02)) + (conta2 + (conta2 * 0.02))))
+
+		escreva("O resultado final do desconto é de: ", resultado, "\n")
 	}
 }
 

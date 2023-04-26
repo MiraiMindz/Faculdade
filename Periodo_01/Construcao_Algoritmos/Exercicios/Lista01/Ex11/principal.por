@@ -7,7 +7,15 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real diagonalMenor, diagonalMaior, resultado
+		escreva("Esse programa existe com o propósito de calcular a area de um losango, dado ambas as diagonais.\n")
+		escreva("Insira a diagonais menor: ")
+		leia(diagonalMenor)
+		escreva("Insira a diagonal maior: ")
+		leia(diagonalMaior)
+
+		resultado = ((diagonalMaior * diagonalMenor) / 2)
+		escreva("O resultado é: ", resultado)
 	}
 }
 

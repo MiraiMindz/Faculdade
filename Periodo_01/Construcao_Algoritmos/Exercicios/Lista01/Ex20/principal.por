@@ -7,7 +7,18 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real altura, base, hipotenusa, baseAngulo, alturaAngulo
+		escreva("Este programa existe com o propósito de calcular a medida de uma hipotenusa dado apenas o cateto adjacente e seu angulo.\n")
+
+		escreva("Insira o cateto adjacente: ")
+		leia(base)
+		
+		escreva("Insira o angulo do cateto adjacente: ")
+		leia(baseAngulo)
+
+		hipotenusa = (base / cos(baseAngulo))
+
+		escreva("A medida da escada é: ", hipotenusa)
 	}
 }
 

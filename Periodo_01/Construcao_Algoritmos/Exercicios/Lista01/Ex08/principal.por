@@ -7,7 +7,12 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real peso
+		escreva("Esse programa existe com o propósito de converter dado peso para gramas\n")
+		escreva("insira o peso: ")
+		leia(peso)
+
+		escreva("O resultado é: ", (peso * 1000))
 	}
 }
 

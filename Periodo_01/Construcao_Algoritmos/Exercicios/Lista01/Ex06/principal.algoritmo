@@ -15,9 +15,9 @@ INICIO
 	escreva("Insira o valor total das vendas: ")
 	leia(valorVendas)
 
-	comissao <- vendas * 0.04
+	comissao <- valorVendas * 0.04
 	salarioFinal <- salarioBruto + comissao
 
-	escreva("A comissão foi de: ", comissão)
+	escreva("A comissão foi de: ", comissao)
 	escreva("O salário final é de: ", salarioFinal)
 FIM

@@ -11,7 +11,21 @@
 **/
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real horasTrabalhadas, salarioMinimo, horasExtras, salarioFinal
+
+		escreva("Esse programa existe com o propósito de calcular um salário dado as horas trabalhadas, horas extras e o valor de um salário mínimo.\n")
+		escreva("Insira o valor do salário minimo: ")
+		leia(salarioMinimo)
+
+		escreva("Insira o valor das horas trabalhadas: ")
+		leia(horasTrabalhadas)
+
+		escreva("Insira o valor das horas extras trabalhadas: ")
+		leia(horasExtras)
+
+		salarioFinal = ((horasTrabalhadas * (salarioMinimo / 8)) + (horasExtras * (salarioMinimo / 4)))
+
+		escreva("O salário final a receber é de: ", salarioFinal)
 	}
 }
 

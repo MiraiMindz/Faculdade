@@ -7,7 +7,15 @@
 
 programa {
 	funcao inicio() {
-		escreva(Olá Mundo)
+		real angulo1, angulo2
+		escreva("Esse programa existe com o propósito de calcular o angulo restante em um triângulo dados dois angulos quaisquer.\n")
+		escreva("Insira o primeiro angulo: ")
+		leia(angulo1)
+
+		escreva("Insira o segundo angulo: ")
+		leia(angulo2)
+
+		escreva("O terceiro angulo vale: ", (180 - (angulo1 + angulo2)))
 	}
 }
 
