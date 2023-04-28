@@ -16,9 +16,9 @@ int main() {
     printf("Insira sua quantia atual em Reais: ");
     scanf("%f", &valorReal);
 
-    printf("%s %.2f\n", "Sua quantia em Dolar é de:", (valorReal * 1.80));
-    printf("%s %.2f\n", "Sua quantia em Marco é de:", (valorReal * 2));
-    printf("%s %.2f\n", "Sua quantia em Libra-esterlina é de:", (valorReal * 3.57));
+    printf("%s %.2f\n", "Sua quantia em Dolar é de:", (valorReal / 1.80));
+    printf("%s %.2f\n", "Sua quantia em Marco é de:", (valorReal / 2));
+    printf("%s %.2f\n", "Sua quantia em Libra-esterlina é de:", (valorReal / 3.57));
 
     return 0;
 }
