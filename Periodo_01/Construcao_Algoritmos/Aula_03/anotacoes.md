@@ -88,6 +88,31 @@ Precedencia:
 
 Pode-se usar parenteses para definir Precedencia
 
+CAPITULO 4 - Exercicios prioridades: 3, 7, 8, 15, 17, 18, 19
+
+--------------------------------------------------------------------------------
+
+Se Encadeado
+
+O "Se encadeado" ignora as outras expressoes quando atinge um VERDADEIRO
+
+```plaintext
+se (condição) então
+
+senão
+    se (condição) então
+
+    senão
+        se (condição) então
+        
+        senão
+        
+        fim se
+    fim se
+fim se
+```
+
+EM ALGORITMO NÃO EXISTE (SENÃO SE), O 'SE' DEVE ESTAR NA LINHA ABAIXO.
 
 ## Anotações da Tutora
 
@@ -345,5 +370,98 @@ salReceber = salBruto+ valReceberExtra
 _______________________________________________________________________________
 
 Estrutura Condicional
+
+_______________________________________________________________________________
+
+Estrutura Condicional (VALIDAÇÃO)
+
+1) Se simples
+2) Se composto
+
+exercício
+Se a base menor for maior que a base maior informar que não foi possível calcular
+
+
+Algoritmo Cap3Ex09
+// declaração de variáveis
+     bMaior, bMenor, altura, area : real
+Início
+
+// entrada de dados
+     escreva("Valor da Base Menor..: ")
+     leia(bMenor)
+     escreva("Valor da Base Maior..: ")
+     leia(bMaior)
+     escreva("Valor da Altura..: ")
+     leia(altura)
+
+// processamento e saída de dados
+  se baseMenor < baseMaior então
+        area <- ((bMaior + bMenor) * altura )/2
+        escreva("\nÁrea do Trap´zio..: " , area)
+    senão
+        escreva("Desculpa, não foi possível calcular. A base menor tem que ser menor que a base Maior.")
+
+
+
+fim
+
+---------------- Em Portugol ---------------
+programa {
+  funcao inicio() {
+    // variáveis
+    real  bMaior, bMenor, altura, area :
+    // entrada de dados
+     escreva("Valor da Base Menor..: ")
+     leia(bMenor)
+     escreva("Valor da Base Maior..: ")
+     leia(bMaior)
+     escreva("Valor da Altura..: ")
+     leia(altura)
+
+// processamento
+   se (bMenor < bMaior)
+    {
+        area = ((bMaior + bMenor) * altura )/2
+        escreva("\n------------- Resultado --------------")
+        escreva("\nÁrea do Trapézio..: " , area)
+        escreva("\n--------------------------------------") 
+    } // fecha o se (verdade)
+    senao
+    {
+        escreva("\nNão foi possível calcular.")
+    } // fecha o senão (falso)
+
+    
+  }
+}
+
+Resolvendo Exercício
+Capítulo 4
+Exercício 7
+
+---------------- Em Portugol ---------------
+programa {
+  funcao inicio() {
+    // variáveis
+       real sal
+    // entrada de dados
+    escreva("Salario..: ")
+    leia(sal)
+
+  // processamento
+     se (sal < 500.00)
+      {  
+         escreva("Novo  Salário..: ",  sal * 1.30) 
+      } 
+      senao
+       {  
+          escreva("Você não teve direito ao aumento.") 
+       }
+  
+  }
+} 
+
 ```
+
 
