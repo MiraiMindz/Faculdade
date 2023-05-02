@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aula 06</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="css/style.css" rel="stylesheet">-->
+  </head>
+  <body>
+    <main>
+      <div id="main_img">
+        <img id="img" src="http://clipart-library.com/newhp/283-2839675_one-number-1-free-image-on-pixabay-clipart.png"/>
+      </div>
+      <div>
+        <img src="https://image.shutterstock.com/image-vector/red-click-here-button-260nw-1151454593.jpg" onClick="changeImage('http://clipart-library.com/newhp/283-2839675_one-number-1-free-image-on-pixabay-clipart.png');" />
+        <img src="https://thumbs.dreamstime.com/b/hand-cursor-click-icon-isolated-blue-round-button-illustration-hand-cursor-click-icon-blue-round-button-illustration-167324051.jpg" onClick="changeImage('https://i.pinimg.com/originals/5a/ce/16/5ace16eaa29160eb748d9e20c919bbca.png');" />
+      </div>
+    </main>
+
+    <script lang="javascript" type="text/javascript">
+    function changeImage(imgSrc) {
+      document.getElementById("img").src=imgSrc;
+    }
+    /*
+    let var1 = 0;
+    let numero = 1;
+    // Checa primeiro, executa depois
+    while (var1 < 10) {
+      document.write(`Linha: ${var1} <br/>`)
+      var1++;
+    }
+    // Executa primeiro verifica depios
+    // Executa pelo menos uma vez
+    do {
+      document.write(`${numero} <br/>`)
+      numero++;
+    } while (numero > 5)
+    */
+    </script> 
+  </body>
+</html>
+<!-- Data: 02/05/2023 -->
+

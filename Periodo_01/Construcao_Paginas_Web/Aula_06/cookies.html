@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cookies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+  </head>
+  <body onLoad="checkCookies()">
+    <script lang="javascript" type="text/javascript">
+      function checkCookies() {
+        if (navigator.cookiesEnabled == true) {
+          alert("Cookies são permitidos.");
+        } else {
+          alert("Cookies não são permitidos.");
+        }
+      }
+    </script>
+  </body>
+</html>

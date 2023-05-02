@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>mouseOver</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <main>
+      <div onMouseOver="mouseOver(this)" onMouseOut="mouseOut(this)" style="background-color: #5F9678; color: #FFFF00; width: fit-content; height: fit-content; padding: 1.5rem; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+        <p>Passe o mouse em mim.</p>
+      </div>
+      <div onMouseDown="onMouseDown(this)" onMouseUp="onMouseUp(this)" style="background-color: #5F9678; color: #FFFF00; width: fit-content; height: fit-content; padding: 1.5rem; margin-top: 5rem; margin-bottom: auto; margin-left: auto; margin-right: auto;">
+        <p>Clique e segure</p>
+      </div>
+    </main>
+    <script lang="javascript" type="text/javascript">
+      function mouseOver(mouseObject) {
+        mouseObject.innerHTML="CUPOM: J766J55E";
+      }
+      function mouseOut(mouseObject) {
+        mouseObject.innerHTML="CUPOM AQUI!";
+      }
+
+      function onMouseDown(mouseObject) {
+        mouseObject..style.background="#1EC5E5";
+        mouseObject.innerHTML="Solte Aqui!";
+      }
+      
+      function onMouseUp(mouseObject) {
+        mouseObject.style.background="#D94A38";
+        mouseObject.innerHTML="Clique e segure";
+      }
+    </script>
+  </body>
+</html>

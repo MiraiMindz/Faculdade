@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>onChange</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <p>
+      Cidade:
+      <span style="margin-left: 0.2rem;">
+        <input type="text" id="textId" onChange="funcChange()" />
+      </span>
+    </p>
+    <script lang="javascript" type="text/javascript">
+      function funcChange() {
+        var text = document.getElementById("textId");
+        text.value = text.value.toUpperCase();
+      }
+    </script>
+  </body>
+</html>
