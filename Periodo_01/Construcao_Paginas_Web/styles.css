@@ -1,0 +1,73 @@
+:root {
+    --rosewater:#f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink:     #f5c2e7;
+    --mauve:    #cba6f7;
+    --red:      #f38ba8;
+    --maroon:   #eba0ac;
+    --peach:    #fab387;
+    --yellow:   #f9e2af;
+    --green:    #a6e3a1;
+    --teal:     #94e2d5;
+    --sky:      #89dceb;
+    --sapphire: #74c7ec;
+    --blue:     #89b4fa;
+    --lavender: #b4befe;
+    --text:     #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base:     #1e1e2e;
+    --mantle:   #181825;
+    --crust:    #11111b;
+}
+
+/* h1 {
+    text-decoration: underline;
+    text-align: center;
+} */
+
+main {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    /* background-image: url("https://start.youse.com.br/wp-content/uploads/2020/08/chiron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    background-color: var(--crust);
+    width: auto;
+    height: 100%;
+    color: var(--text);
+}
+
+/* a, a:link, a:visited {
+    background-color: var(--surface0);
+    padding: 0.5rem;
+    border: 0.2rem solid var(--overlay0);
+    border-radius: 0.5rem;
+    color: var(--sapphire);
+}
+
+a:hover {
+    color: var(--blue);
+} */
+
+#test {
+    visibility: hidden;
+    position: relative;
+}
+
+#test:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+}

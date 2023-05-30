@@ -1,0 +1,13 @@
+.sem_borda { border-style: none; }
+.borda_pontilhada { border-style: dotted; }
+.borda_tracejada { border-style: dashed; }
+.borda_solida { border-style: solid; }
+.borda_baixorelevo { border-style: inset; }
+.borda_altorelevo { border-style: outset; }
+.borda_dupla { border-style: double; }
+.borda_fina { border-style: thin; }
+.borda_media { border-style: medium; }
+.borda_grossa { border-style: thick; }
+.borda_personalizada {
+    border: 10pt solid var(--surface0) ;
+}
