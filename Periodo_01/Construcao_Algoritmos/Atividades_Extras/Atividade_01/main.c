@@ -44,9 +44,18 @@
  *          De  R$ 2.571,30 até R$ 3.856,94     12%
  *          De  R$ 3.856,95 até R$ 7.507,49     14%
  *
- *  IRFP (IRRF):
+ *  IRPF (IRRF):
+ *      Até Maio de 2023:
  *          Base de cálculo (R$)                Alíquota (%) Parcela IRPF (R$)
  *          Até      1.903,98                   NULL                NULL
+ *          De       1.903,99 até 2.826,65      7,5                 142,80
+ *          De       2.826,66 até 3.751,05      15                  354,80
+ *          De       3.751,06 até 4.664,68      22,5                636,13
+ *          Acima de 4.664,68                   27,5                869,36
+ *
+ *      Após Maio de 2023:
+ *          Base de cálculo (R$)                Alíquota (%) Parcela IRPF (R$)
+ *          Até      2.112,00                   NULL                NULL
  *          De       1.903,99 até 2.826,65      7,5                 142,80
  *          De       2.826,66 até 3.751,05      15                  354,80
  *          De       3.751,06 até 4.664,68      22,5                636,13
@@ -75,6 +84,7 @@
  *      - "Perguntas Frequentes sobre FGTS"; CAIXA. Acessado em 27/05/2023, Disponível em: <https://www.caixa.gov.br/beneficios-trabalhador/fgts/perguntas-frequentes/Paginas/default.aspx#:~:text=O%20valor%20ser%C3%A1%20o%20correspondente,percentual%20%C3%A9%20reduzido%20para%202%25>
  *      - "Tabela de contribuição mensal"; INSS. Acessado em 27/05/2023, Disponível em: <https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal>
  *      - "IRPF (Imposto sobre a renda das pessoas físicas)"; RECEITA FEDERAL. Acessado em 27/05/2023, Disponível em: <https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/irpf-imposto-de-renda-pessoa-fisica>
+ *      - "Nova Tabela do Imposto de Renda de Pessoas Fisicas"; UOL, Acessado em 29/05/2023, Disponível em: <https://economia.uol.com.br/imposto-de-renda/noticias/redacao/2023/05/03/nova-tabela-imposto-de-renda.htm>
  *
  *******************************************************************************/
 
@@ -466,25 +476,6 @@ void getCode(int *codRefFuncionario) {
 }
 
 /**
- * @fn getRefYear
- * @brief Coleta o ano de referência
- * @param int*: anoReferencia
- * @deprecated Devido ao aumento exponencial de complexidade, essa função será desativada em prol do valor fixo de 2023.
- * @author Amanda Nunes
- * @author Bruno Barreto
- **/
-void getRefYear(int *anoReferencia) {
-    InputValue value;
-    value = getInput("│ Insira seu ano de referência: ", "int");
-    if (value.intValue != 2023) {
-        printf("│ ESSE PROGRAMA CALCULA APENAS OS VALORES REFERENTES AO ANO DE 2023.\n");
-        getRefYear(anoReferencia);
-    } else {
-        *anoReferencia = value.intValue;
-    }
-}
-
-/**
  * @fn getDayVal
  * @brief Coleta o valor do dia trabalhado
  * @param float*: salarioDia
@@ -551,10 +542,13 @@ void getMonthVal(float *salasalarioMes) {
  * @author Amanda Nunes
  * @author Bruno Barreto
  **/
-void calculateFGTS(float salario, int jovemAprendiz, float *porcentagemFGTS, float *aliquotaFGTS) {
+void calculateFGTS(float salario, int jovemAprendiz, int empregadoDomestico, float *porcentagemFGTS, float *aliquotaFGTS) {
     if (jovemAprendiz == 1) {
         *porcentagemFGTS = 2.0;
         *aliquotaFGTS = getPercentage(2.0, salario);
+    } else if (empregadoDomestico == 1) {
+        *porcentagemFGTS = 11.2;
+        *aliquotaFGTS = getPercentage(11.2, salario);
     } else {
         *porcentagemFGTS = 8.0;
         *aliquotaFGTS = getPercentage(8.0, salario);
@@ -570,36 +564,28 @@ void calculateFGTS(float salario, int jovemAprendiz, float *porcentagemFGTS, flo
  * @author Amanda Nunes
  * @author Bruno Barreto
  **/
-void calculateIRRF(float salario, float *porcentagemIRRF, float *aliquotaIRRF, float *salarioBaseIRRF, int *faixaIRRF) {
-    if (salario <= 1903.98) {
-        *salarioBaseIRRF = salario;
+void calculateIRRF(float salario, int mesReferencia, float *porcentagemIRRF, float *aliquotaIRRF, int *faixaIRRF) {
+    float baseIRRF = mesReferencia < 5 ? 1903.98 : 2112.00;
+    if (salario <= baseIRRF) {
         *porcentagemIRRF = 0.0;
         *faixaIRRF = 1;
         *aliquotaIRRF = 0.0;
     } else if (salario <= 2826.65) {
-        *salarioBaseIRRF = 1903.99;
         *porcentagemIRRF = 7.5;
         *faixaIRRF = 2;
-        // *aliquotaIRRF = getPercentage(7.5, salario);
-        *aliquotaIRRF = getPercentage(7.5, *salarioBaseIRRF);
+        *aliquotaIRRF = getPercentage(7.5, salario);
     } else if (salario <= 3751.05) {
-        *salarioBaseIRRF = 2826.66;
         *porcentagemIRRF = 15.0;
         *faixaIRRF = 3;
-        // *aliquotaIRRF = getPercentage(15.0, salario);
-        *aliquotaIRRF = getPercentage(15.0, *salarioBaseIRRF);
+        *aliquotaIRRF = getPercentage(15.0, salario);
     } else if (salario <= 4664.68) {
-        *salarioBaseIRRF = 3751.06;
         *porcentagemIRRF = 22.5;
         *faixaIRRF = 4;
-        // *aliquotaIRRF = getPercentage(22.5, salario);
-        *aliquotaIRRF = getPercentage(22.5, *salarioBaseIRRF);
+        *aliquotaIRRF = getPercentage(22.5, salario);
     } else {
-        *salarioBaseIRRF = 4664.68;
         *porcentagemIRRF = 27.5;
         *faixaIRRF = 5;
-        // *aliquotaIRRF = getPercentage(27.5, salario);
-        *aliquotaIRRF = getPercentage(27.5, *salarioBaseIRRF);
+        *aliquotaIRRF = getPercentage(27.5, salario);
     }
 }
 
@@ -613,30 +599,21 @@ void calculateIRRF(float salario, float *porcentagemIRRF, float *aliquotaIRRF, f
  * @author Amanda Nunes
  * @author Bruno Barreto
  **/
-void calculateINSS(float salario, int mesReferencia, float *porcentagemINSS, float *aliquotaINSS, float *salarioBaseINSS) {
+void calculateINSS(float salario, int mesReferencia, float *porcentagemINSS, float *aliquotaINSS) {
     float salarioMinimo = mesReferencia < 5 ? 1302.0 : 1320.0;
     if (salario <= salarioMinimo) {
-        *salarioBaseINSS = salario;
         *porcentagemINSS = 7.5;
-        *aliquotaINSS = getPercentage(7.5, *salarioBaseINSS);
-        // *aliquotaINSS = getPercentage(7.5, salario);
+        *aliquotaINSS = getPercentage(7.5, salario);
     } else if (salario <= 2571.29) {
-        *salarioBaseINSS = mesReferencia < 5 ? 1302.01 : 1320.01;
         *porcentagemINSS = 9.0;
-        *aliquotaINSS = getPercentage(9.0, *salarioBaseINSS);
-        // *aliquotaINSS = getPercentage(9.0, salario);
+        *aliquotaINSS = getPercentage(9.0, salario);
     } else if (salario <= 3856.94) {
-        *salarioBaseINSS = 2571.30;
         *porcentagemINSS = 12.0;
-        *aliquotaINSS = getPercentage(12.0, *salarioBaseINSS);
-        // *aliquotaINSS = getPercentage(12.0, salario);
+        *aliquotaINSS = getPercentage(12.0, salario);
     } else if (salario <= 7507.49) {
-        *salarioBaseINSS = 3856.95;
         *porcentagemINSS = 14.0;
-        *aliquotaINSS = getPercentage(14.0, *salarioBaseINSS);
-        // *aliquotaINSS = getPercentage(14.0, salario);
+        *aliquotaINSS = getPercentage(14.0, salario);
     } else {
-        *salarioBaseINSS = salario;
         *porcentagemINSS = 0.0;
         *aliquotaINSS = 0.0;
     }
@@ -655,8 +632,8 @@ int main() {
     float porcentagemFGTS;
     float porcentagemINSS;
     float porcentagemIRRF;
+    float salarioBase;
     float salarioBaseIRRF;
-    float salarioBaseINSS;
     int faixaIRRF;
     char *nomeFuncionario;
     int codRefFuncionario;
@@ -670,6 +647,7 @@ int main() {
     int diaReferencia;
     int diasTrabalhados;
     int jovemAprendiz;
+    int empregadoDomestico;
     int anoReferencia = 2023;
 
     printf("%s\n", "┌──────────────────────────────");
@@ -677,26 +655,22 @@ int main() {
     getCode(&codRefFuncionario);
     getRole(&cargoFuncionario);
     getRefMonth(&mesReferenciaInt, &mesReferenciaStr);
-
-    if (getYesNo(
-        "│ Seu salário é a base de valor diário * dias trabalhados (S/N)? "
-        ) == 1) {
-        getDayVal(&salarioDia);
-        getWorkDays(&diasTrabalhados);
-        salarioBruto = (float)diasTrabalhados * salarioDia;
-    } else {
-        getMonthVal(&salarioMes);
-        diasTrabalhados = 30;
-        salarioDia = salarioMes / (float)diasTrabalhados;
-        salarioBruto = salarioMes;
-    }
+    getMonthVal(&salarioMes);
+    getWorkDays(&diasTrabalhados);
+    salarioDia = salarioMes / 30.0;
+    salarioBruto = salarioDia * (float)diasTrabalhados;
+    salarioBase = salarioMes;
 
     jovemAprendiz = getYesNo(
         "│ O seu contra-cheque é de Jovem Aprendiz (S/N)? ");
+    empregadoDomestico = getYesNo(
+        "│ O seu contra-cheque é de Empregado Doméstico (S/N)? ");
 
-    calculateFGTS(salarioBruto, jovemAprendiz, &porcentagemFGTS, &aliquotaFGTS);
-    calculateINSS(salarioBruto, mesReferenciaInt, &porcentagemINSS, &aliquotaINSS, &salarioBaseINSS);
-    calculateIRRF(salarioBruto, &porcentagemIRRF, &aliquotaIRRF, &salarioBaseIRRF, &faixaIRRF);
+    calculateFGTS(salarioBruto, jovemAprendiz, empregadoDomestico, &porcentagemFGTS, &aliquotaFGTS);
+    calculateINSS(salarioBruto, mesReferenciaInt, &porcentagemINSS, &aliquotaINSS);
+    salarioBaseIRRF = salarioBruto - aliquotaINSS;
+    calculateIRRF(salarioBaseIRRF, mesReferenciaInt, &porcentagemIRRF, &aliquotaIRRF, &faixaIRRF);
+    
     salarioLiquido = salarioBruto - (aliquotaINSS + aliquotaIRRF);
 
     printf("%s\n", "├──────────────────────────────");
@@ -713,9 +687,9 @@ int main() {
     printf("│ 937\tINSS\t\t\t%.2f\t\t\t\t%.2f\n", porcentagemINSS, aliquotaINSS);
     printf("│ 987\tIRRF S. SALARIO\t\t%.2f\t\t\t\t%.2f\n", porcentagemIRRF, aliquotaIRRF);
     printf("├─────\n");
-    printf("│ Salário Base: %.2f\n", salarioBaseINSS);
-    printf("│ Salário Base Contr. INSS: %.2f\n", salarioBaseINSS);
-    printf("│ Salário Base Calc. FGTS: %.2f\n", salarioBaseINSS);
+    printf("│ Salário Base: %.2f\n", salarioBase);
+    printf("│ Salário Base Contr. INSS: %.2f\n", salarioBruto);
+    printf("│ Salário Base Calc. FGTS: %.2f\n", salarioBruto);
     printf("│ FGTS do Mês: %.2f\n", aliquotaFGTS);
     printf("│ Base Cálc. IRRF: %.2f\n", salarioBaseIRRF);
     printf("│ Faixa IRRF: %d\n", faixaIRRF);
